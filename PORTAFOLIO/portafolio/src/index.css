@@ -1,0 +1,7 @@
+body {
+  background-color: rgba(59, 34, 28);
+  margin: 0;
+  color: white;
+  overflow: hidden; /* Para evitar el desplazamiento de la página */
+ 
+}

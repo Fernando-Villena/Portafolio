@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+  font: 'Arial';
+}
+
+/* In your App.css or any other CSS file */
+
+.App-header {
+  background-color: #282c34;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.circle {
+  width: 1400px;
+  height: 1400px;
+  border-radius: 50%;
+  background: radial-gradient(circle, 
+
+  rgba(163, 96, 51, 0.9), 
+
+   
+      rgba(128, 75, 43, 0.8) , 
+      rgba(104, 61, 38, 0.7) , 
+      rgba(59, 34, 28, 0.4) , 
+      rgba(59, 34, 28, 0.3) , 
+      rgba(59, 34, 28, 0.2) , 
+      rgba(59, 34, 28, 0) );
+  position: absolute;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: -1; 
+  opacity: 0.3; /* Mover el círculo detrás del contenido */
+}
+
+@media (max-width: 1800px) {
+  .circle {
+    display: none; /* Ocultar el círculo cuando el ancho de la pantalla sea igual o menor a 768px */
+  }
+}
+
+#Nombre {
+  font-size: 58px;
+}
+
+#nav {
+  margin-top: 6rem;
+}
+
+#nav h1,
+#nav p{
+  text-align: left;
+}
+
+@media (min-width: 1100px) {
+#nav h1,
+#nav p{
+  text-align: left;
+  margin-left: 6rem;
+}
+}
+
+
+
+#carrera{
+  font-size: 23px;
+  text-align: left;
+
+}
+
+.text-muted-white {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.icon-container:hover {
+  color: white; 
+}
